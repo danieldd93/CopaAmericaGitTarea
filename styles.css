@@ -1,0 +1,165 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+#logo-container {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    height: 50px;
+}
+
+#title {
+    color: white;
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#teams {
+    margin: 20px;
+}
+
+#teams-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#teams-table th, #teams-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#teams-table th {
+    background-color: #333;
+    color: white;
+}
+
+#calendar-section {
+    margin: 20px;
+}
+
+#calendar-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#calendar-table th, #calendar-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#calendar-table th {
+    background-color: #333;
+    color: white;
+}
+
+#stadiums-section {
+    margin: 20px;
+}
+
+#stadiums-list article {
+    margin-bottom: 20px;
+}
+
+#stadiums-list img {
+    max-width: 50%;
+    height: auto;
+}
+
+#stadiums-list h3 {
+    color: #333;
+    margin-top: 0.5em;
+}
+
+#stadiums-list p {
+    color: #666;
+}
+
+#stadiums-section, #calendar-section, #teams-section {
+    flex: 1;
+    margin: 20px 20px 100px 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: left;
+    padding: 10px 0px 10px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    flex-shrink: 0;
+}
+
+#news-section {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#news-section article {
+    margin-bottom: 20px;
+    background: #f8f8f8;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#news-section h2 {
+    margin-top: 0;
+}
+
+#news-section p {
+    color: #555;
+}
+
+#news-section a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#news-section a:hover {
+    text-decoration: underline;
+}
